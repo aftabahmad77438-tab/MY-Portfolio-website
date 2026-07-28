@@ -1,0 +1,173 @@
+.navbar{
+
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   animation: fadein 2s ease-in;
+   position: sticky;
+   top: 0%;
+   z-index: 1000;
+}
+.logo h4{
+    font-size: 30px;
+    padding: 4px;
+    margin: 4px;
+}
+.li ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+     /* text-decoration: none !important; */
+}
+.li ul li a {
+  text-decoration: none !important; 
+  color: inherit;
+}
+.ld{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+.moods i{
+    font-size: 20px;
+}
+.email i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.email a{
+  color: inherit;
+}
+.a{
+  width: 90%;
+  height: 3px;
+  border-radius: 10px;
+  border: none;
+  background-color: navy;
+  margin-top: 2px;
+}
+
+.b{
+ width: 90%;
+  height: 3px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(199, 199, 205);
+  margin-top: 2px;
+}
+
+/* ===== MOBILE RESPONSIVE (up to 768px) ===== */
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: auto;
+    min-height: 3.5rem;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .logo h4 {
+    font-size: 18px;
+  }
+
+  .li {
+    flex: 0 0 100%;
+    order: 3;
+  }
+
+  .li ul {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .li ul li {
+    font-size: 13px;
+    padding: 5px 8px;
+  }
+
+  .ld {
+    gap: 15px;
+  }
+
+  .moods i {
+    font-size: 17px;
+  }
+
+  .email i {
+    font-size: 19px;
+  }
+}
+
+/* ===== SMALL MOBILE (up to 480px) ===== */
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 8px 15px;
+    gap: 8px;
+  }
+
+  .logo h4 {
+    font-size: 15px;
+    padding: 2px;
+    margin: 2px;
+  }
+
+  .li ul {
+    gap: 10px;
+  }
+
+  .li ul li {
+    font-size: 11px;
+    padding: 4px 6px;
+  }
+
+  .ld {
+    gap: 12px;
+  }
+
+  .moods i {
+    font-size: 15px;
+  }
+
+  .email i {
+    font-size: 17px;
+  }
+}
+
+/* ===== VERY SMALL MOBILE (up to 360px) ===== */
+@media screen and (max-width: 360px) {
+  .navbar {
+    padding: 6px 10px;
+  }
+
+  .logo h4 {
+    font-size: 13px;
+  }
+
+  .li ul {
+    gap: 6px;
+  }
+
+  .li ul li {
+    font-size: 10px;
+    padding: 3px 4px;
+  }
+
+  .ld {
+    gap: 8px;
+  }
+
+  .moods i {
+    font-size: 13px;
+  }
+
+  .email i {
+    font-size: 15px;
+  }
+}

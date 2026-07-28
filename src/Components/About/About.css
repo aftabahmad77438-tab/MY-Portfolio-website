@@ -1,0 +1,163 @@
+.about{
+    height: 100vh;
+    animation: fadein 2s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.parag h2{
+    font-size: 30px;
+}
+.parag i{
+    margin: 4px;
+}
+
+
+.first{
+   
+    margin: 10px;
+    padding: 25px;
+     box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    /* margin-bottom: 10px; */
+}
+.second{
+
+   margin: 10px;
+    padding: 25px;
+     box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    /* margin-bottom: 10px; */
+    z-index: 1000;
+     
+}
+button{
+   background-color: rgb(2, 0, 0);
+    padding: 12px;
+    margin: 15px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    border: 1px solid white;
+}
+.resume{
+  text-decoration: none;
+  color: inherit;
+}    
+.image img{
+    width: 350px;
+    height: auto;
+    border-radius: 80%;
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+} 
+.image img:hover{
+    transform: scale(1.02);
+}
+
+/* ===== LARGE SCREENS (1440px+) ===== */
+@media screen and (min-width: 1440px) {
+  .about {
+    padding: 0 60px;
+  }
+
+  .image img {
+    width: 420px;
+  }
+}
+
+/* ===== TABLET (up to 1024px) ===== */
+@media screen and (max-width: 1024px) {
+  .about {
+    height: auto;
+    min-height: 100vh;
+    padding: 40px 30px;
+    gap: 20px;
+  }
+
+  .parag h2 {
+    font-size: 26px;
+  }
+
+  .image img {
+    width: 280px;
+  }
+
+  .first,
+  .second {
+    padding: 20px;
+  }
+}
+
+/* ===== TABLET PORTRAIT / LARGE MOBILE (up to 768px) ===== */
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 20px;
+    gap: 15px;
+  }
+
+  .parag h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .parag {
+    text-align: center;
+  }
+
+  .image img {
+    width: 220px;
+  }
+
+  .first,
+  .second {
+    margin: 8px;
+    padding: 18px;
+    width: 90%;
+  }
+}
+
+/* ===== SMALL MOBILE (up to 480px) ===== */
+@media screen and (max-width: 480px) {
+  .about {
+    padding: 20px 15px;
+  }
+
+  .parag h2 {
+    font-size: 18px;
+  }
+
+  .parag i {
+    font-size: 14px;
+  }
+
+  .image img {
+    width: 160px;
+  }
+
+  .first,
+  .second {
+    margin: 6px;
+    padding: 14px;
+    border-radius: 20px;
+  }
+}
+
+/* ===== VERY SMALL MOBILE (up to 360px) ===== */
+@media screen and (max-width: 360px) {
+  .parag h2 {
+    font-size: 16px;
+  }
+
+  .image img {
+    width: 130px;
+  }
+
+  .first,
+  .second {
+    padding: 10px;
+    border-radius: 15px;
+  }
+}
