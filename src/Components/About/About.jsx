@@ -11,7 +11,7 @@ const About = () => {
         <h2>About Me <i className="fa-solid fa-circle-user"></i></h2>
         <div className="first">
           <p>
-            I'm a passionate Front-End React Developer<br></br> who loves turning complex 
+            I'm a passionate MERN stack  Developer<br></br> who loves turning complex 
           problems  into elegant,<br></br> user-friendly interfaces.With a strong foundation <br></br>
          in modern   JavaScript and a keen eye for design, <br></br>I specialize in building responsive,
             high-performance <br></br>web applications that deliver exceptional user experiences.
