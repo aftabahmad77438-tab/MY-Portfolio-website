@@ -8,7 +8,7 @@ const Header = () => {
         <div className='headerleft'>
         <h2 style={{color:'#F5F5F7'}}>HI,</h2> 
             <h2>I'm Aftab ahmad</h2>
-            <h2>Frontend developer</h2>
+            <h2>MERN stack developer</h2>
 
             <button onClick={()=>{navigate('/contact')}}>Get in touch <i className="fa-solid fa-link"></i></button>
             
